@@ -1,0 +1,238 @@
+#Section1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#nameLogo{
+    flex: 300px;
+    width:100%;
+    align-items: center;
+}
+#pokeLogo{
+    flex: 200px;
+    width:700px;
+    margin-left: 32%;
+}
+#pokedexSec{
+    flex: 700px;
+    width: 100%;
+}
+#pokedex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 100%;
+    background-color: #ee2a2c;
+    position: absolute;
+    left: 27%;
+    top: 200px;
+}
+#luces{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 7px solid black;
+}
+#azul{
+   width: 60px;
+   height: 60px;
+   background-color: #67b8f9; 
+   border-radius: 100%;
+   border: 7px solid whitesmoke;
+   margin-top: 5px;
+   margin-left: 5px;
+}
+.minicirculos{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    position: absolute
+}
+#rojo{
+    background-color: #e7272a;
+    left: 90px;
+}
+#amarillo{
+    background-color: #f6e020;
+    left: 130px;
+}
+#verde{
+    background-color: #2ae34a;
+    left: 170px;
+}
+#pantalla{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    flex: 25%;
+
+}
+.centrar{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+#fondo{
+    width: 450px;
+    height: 280px;
+    background-color: #cfcfcf;
+    border-radius: 35px 35px 0px 110px;
+    top: 31%;
+}
+#pantallaImg{
+    width: 390px;
+    height: 220px;
+    background-color: white;
+    border-radius: 8%;
+    top: 270px
+}
+#botonGrande{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ea2c2c;
+    border: 1px solid black;
+    top: 402.5px;
+    left: 140px;
+}
+.botonChico{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ea2c2c;
+    border: 1px solid black;
+    top: 16.8%;
+}
+#botonChico1{
+    left: 45%
+}
+#botonChico2{
+    left: 55%
+}
+.linea{
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    border-radius: 35%;
+    left:75%;
+}
+#linea1{
+    top: 43%
+}
+#linea2{
+    top: 44%
+}
+#linea3{
+    top: 45%
+}
+#linea4{
+    top: 46%
+}
+#pokeImage{
+    width: 100px;
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 38%;
+}
+#botones{
+    flex: 30%;
+}
+#searchBtn{
+    background-color: #535353;
+    width: 15%;
+    height: 20%;
+    border-radius: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#inputText{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+#inputName{
+    background-color: #ea2c2c;
+    border: 1px #535353;
+    border-style: none none solid none;
+}
+#labelName{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    border: 1px black; 
+    border-radius: 15%;
+    background-color: #2ae34a;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+#labelType{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    border: 1px black; 
+    border-radius: 15%;
+    background-color: #a3a5a5;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+}
+.centrarCruz{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);   
+}
+#cruzFondo{
+    background-color: #535353;
+    width: 17%;
+    height: 9%;
+    top: 62.5%;
+    left: 81%
+}
+.cuadro{
+    background-color: #ee2a2c;
+    width: 7%;
+    height: 4%;
+}
+#cuadro1{
+    top: 59%;
+    left: 74.4%
+}
+#cuadro2{
+    top: 59%;
+    left: 87.3%
+}
+
+#cuadro3{
+    top: 65.8%;
+    left: 74.4%
+}
+#cuadro4{
+    top: 65.8%;
+    left: 87.3%
+}
+#statsMoves{
+    height: 200px;
+    width: 220px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    position: absolute;
+    top: 65%;
+    left: 28%;
+}
+.formatDiv{
+    width: 50%;
+    height:100%;
+    background-color: #2dc441;
+    border:solid 1px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll
+}

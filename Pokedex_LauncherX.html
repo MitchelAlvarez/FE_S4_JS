@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./Pokedex_LauncherX.css">
+  </head>
+
+  <body>
+    <section id="Section1">
+        <section id="nameLogo">
+            <div id="pokeLogo">
+                <img src="./imagenes/pokeName.png" id="pokeImageName" alt="pokeImage" width="50%"    height="50%">
+            </div>
+        </section> 
+        <section id="pokedexSec">
+            <div id="pokedex">
+                <div id="luces"> 
+                    <div id="azul"></div>
+                    <div id="rojo" class="minicirculos"></div>
+                    <div id="amarillo" class="minicirculos"></div>
+                    <div id="verde" class="minicirculos"></div>
+                </div>
+                <div id="pantalla">
+                    <div id="fondo" class="centrar"></div>
+                    <div id="pantallaImg" class="centrar">
+                        <div id="pokeImage">
+                            <img src="./imagenes/pokeball.png" alt="pokeball" id="pokeImg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div id="botonChico1" class="centrar botonChico"></div>
+                    <div id="botonChico2" class="centrar botonChico"></div>
+                    <div id="botonGrande" class="centrar"></div>
+                    <div id="linea1" class="centrar linea"></div>
+                    <div id="linea2" class="centrar linea"></div>
+                    <div id="linea3" class="centrar linea"></div>
+                    <div id="linea4" class="centrar linea"></div>
+
+                </div>
+                <div id="botones">
+                    <button id="searchBtn" onclick="fetchPokemon()"></button>
+                    <div id="inputText">
+                        <input type="text" placeholder="pikachu" id="inputName" name="pokemonName"/>
+                    </div>
+                    <div id="labelName">
+                        <label id="pokeName"></label>
+                    </div>
+                    <div id="labelType">
+                        <label id="pokeTipo"></label>
+                    </div>
+                    <div id="cruzFondo" class="centrarCruz"></div>
+                    <div id="cuadro1" class="centrarCruz cuadro"></div>
+                    <div id="cuadro2" class="centrarCruz cuadro"></div>
+                    <div id="cuadro3" class="centrarCruz cuadro"></div>
+                    <div id="cuadro4" class="centrarCruz cuadro"></div>
+                    <div id=statsMoves>
+                        <div id="stats" class="formatDiv"><p id="pStats" style="height:200px;">hols <br />hols <br />hols <br />hols <br />hols <br />hols <br />hols <br />hols <br /> </p></div>
+                        <div id="moves" class="formatDiv"><p id="pMoves" style="height:200px;">hols <br />hols <br />hols <br />hols <br />hols <br />hols <br />hols <br />hols <br /> </p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>  
+  </body>
+  <footer>
+    <script src="./Pokedex_LauncherX.js"></script>
+  </footer>
+</html>
